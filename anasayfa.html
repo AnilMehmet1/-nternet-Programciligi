@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 1530px;
+            height: 800px;  
+        }
+        body, html {
+            height: 100%;
+        }
+        .container.img{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .responsive-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container.img">
+        <img src="anasayfa.jpg" alt="kahvaltı sofrası" usemap="#kahvalti-haritasi" class="responsive-image">
+    </div>
+        
+    <map name="kahvalti-haritasi">
+        <area shape="rect" coords="651,434,924,620" href="yumurta.jpg" alt="Yumurta" title="Yumurta">
+        <area shape="rect" coords="439,381,636,657" href="Salatalik.jpg" alt="Salatalık" title="Salatalık">
+        <area shape="rect" coords="625,142,814,332" href="zeytin.jpg" alt="Zeytin" title="Zeytin">
+        <area shape="rect" coords="283,453,428,631" href="domates..jpg" alt="Domates" title="Domates">
+        <area shape="rect" coords="830,170,999,350" href="reçel.jpg" alt="Reçel" title="Reçel">
+    </map>
+    
+</body>
+</html>
